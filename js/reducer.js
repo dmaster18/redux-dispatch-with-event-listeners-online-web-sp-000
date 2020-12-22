@@ -37,4 +37,10 @@ function reducer(state, action) {
       return state;
   }
 }
->>>>>>> b5726e5aef181e49566f61c47907f944aea8f823
+
+
+let button = document.getElementById('button');
+ 
+button.addEventListener('click', () => {
+  dispatch({type: 'INCREASE_COUNT'})
+})
