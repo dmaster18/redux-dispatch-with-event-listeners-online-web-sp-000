@@ -25,7 +25,7 @@ let button = document.getElementById('button');
 button.addEventListener('click', () => {
   dispatch({type: 'INCREASE_COUNT'})
 })
-=======
+
 // add code snippets from README
 let state = {count: 0}
 
